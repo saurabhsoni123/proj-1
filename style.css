@@ -1,0 +1,2245 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+nav{
+    background-color: black;
+    padding: 15px 15px 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    position: relative;
+}
+.fa-solid fa-bars{
+    padding: 20px;
+}
+
+/*navbar*/
+.menuitems{
+   /* background-color: pink;*/
+    align-items: center;
+    width:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+    padding: 20px;
+}
+ .hamburger {
+margin-top: 90px;
+display: none;
+
+}
+.hamburger i{
+    margin-top: 50px;
+}
+.hamburger .submenu{
+margin-top: 50px;
+}
+.menuitems h3{
+    font-weight: 100;
+    
+}
+.menuitems h3:hover{
+    color:orangered;
+    cursor: pointer;
+}
+.contact{
+    background-color: rgb(67,186,127);
+    padding: 15px 45px;
+    border-radius: 5px;
+}
+/*nav*/
+/*banner*/
+fa-solid fa-bars{
+    color:white;
+}
+.banner{
+   /* border:5px solid blue;*/
+    height: 95vh;
+    position: relative;
+    padding: 70px;
+    background-color: black;
+}
+.banner .prev{
+    position: absolute;
+    top:45%;
+    left: 0;
+}
+.banner .next{
+    position: absolute;
+    top:45%;
+    right:0;
+}
+.banner .content{    width: 40%;
+    height: 100%;
+}
+.banner .content h3{
+    font-size: 50px;
+    color:white;
+}
+.banner .content h3 >span{
+    color:red;
+}
+.banner .content p{
+    color:white;
+    margin:30px 0;
+    font-family: cursive;
+}
+.banner .content .buttons{
+   /* background-color: aqua;*/
+    display: flex;
+    justify-content: space-evenly;
+}
+.banner .content .buttons .btn{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: lime;
+    border: none;
+}
+.banner .content .buttons .btn1{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: red;
+    border:none;
+}
+/*banner*/
+/*servises*/
+.services{
+   /* border:2px solid aqua;*/
+    margin:60px  10px;
+    padding:0 50px;
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    grid-template-rows: repeat(3,150px);
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.services .card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px grey;
+    padding: 0 20px;
+    margin-right: 10px;
+    transition: all 0.5s linear;
+}
+.services .card .fa-briefcase{
+    font-size:80px;
+    color:rgb(67,186,127);
+    padding: 20px;
+    position: relative;
+    bottom:0;
+}
+
+.services .card .card-contents{
+    display: flex;
+    flex-direction: column;
+    gap:30px ;
+    width:70%;
+}
+.services .card:hover .fa-briefcase{
+    bottom: 15px;
+    
+}
+.crypto{
+   /* border:2px solid red;*/
+    height: 200px;
+    margin:50px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./images/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+
+}
+.crypto h1{
+   /* background-color: aqua;*/
+    width:30%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 40px;
+    color: white;
+}
+.crypto .buttons{
+/*background-color: aqua;*/
+width:40%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.crypto .buttons .btn1{
+padding: 15px 25px;
+border-radius: 10px;
+color:white;
+font-weight: bold;
+cursor:pointer;
+background-color: green;
+border: none;
+}
+.crypto .buttons .btn2{
+    padding: 15px 25px;
+    border-radius: 10px;
+    color:white;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: red;
+    border: none;
+    }
+    
+    .hello .contract .left{
+background-color: aqua;
+        height: 100%;
+        width:70%;
+    }
+    .aboutus{
+        /*border:2px solid red;*/
+        height:630px;
+        position: relative;
+        width:100%;
+    
+    }
+    .aboutus .title{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .aboutus .title h4{
+        color:orange;
+    }
+    .aboutus .contract{
+       /* background-color: beige;*/
+        height:85%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .aboutus .contract .left{
+       /* background-color: pink;*/
+        height: 100%;
+        width: 70%;
+        position: relative;
+    }
+    .aboutus .contract .left .buttons{
+        padding: 15px 40px;
+       /* background-color: aquamarine;*/
+        width:75%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin:15px 0;
+        height: auto;
+        position: absolute;
+        top:5%;
+        left: 0;
+    }
+    .aboutus .contract .left .buttons button{
+        padding: 15px 30px;
+        font-size: 17px;
+        box-shadow: 0 0 8px 0 grey;
+    }
+    .aboutus .contract .right{
+        /*background-color: lime;*/
+        height: 100%;
+        width:30%;
+    }
+    .aboutus .contract .right h2{
+        padding:40px;
+        font-family:sans-serif;
+    }
+    .aboutus .contract .right p{
+        padding: 20px 40px;
+        font-size: 20px;
+    }
+    .aboutus .contract .right button{
+        padding:30px;
+        height:20px;
+        width:200px;
+        border-radius: 5px;
+        background-color: lime;
+        border:none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: large;
+        color:white;
+    }
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 100px;
+    }
+    tr{
+        border-bottom: 1px solid #ddd;
+    }
+    td{
+        text-align: center;
+        padding:15px;
+    }
+    th{
+        padding: 30px;
+    }
+    
+     .btnn{
+
+padding:15px;
+height: 10vh;
+
+    }
+    .please{
+        display:none;
+    }
+    .design{
+        display:none;
+    }
+    .btnn .buttons1{
+       /* border:2px solid red;*/
+        height: 190%;
+        width: 80%;
+       position: relative;
+    }
+    
+    .btn .buttons1 .a{
+        position: absolute;
+        top:50px;
+        padding: 40%;
+        margin: 20px;
+        width:40%;
+        
+
+        }
+.btn .buttons1 .b{
+    position: absolute;
+    padding-top: 40%;
+        margin: 20px;
+        width:40%;
+}
+.btn .buttons1 .c{
+    position: absolute;
+    padding: 40%;
+        margin: 20px;
+        width:40%;
+}
+    .content .design table th{
+        text-align: start;
+    }
+    .context .design{
+     background-color: blueviolet;
+        margin-top: 30px;
+        height:255px;
+        width:50%;
+    }
+    .context .design table{
+        /*border:1px solid red;*/
+        height:100%;
+        width:100%;
+        margin-bottom: 50px;
+    }
+    .context.design table th{
+        text-align: start;
+
+    }
+    .second{
+        text-align: start;
+    }
+    .context .design table tr td{
+border-bottom:1px solid grey;
+padding:15px;
+    }
+    .context .design th{
+        border-bottom: 1px solid grey;
+        padding:15px;
+    }
+ .context{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+ }
+    .first{
+       font-weight: 600;
+       color:rgb(25, 168, 120)
+    }
+    span{
+        font-weight: 800;
+    }
+    .button2{
+        padding: 15px;
+        background-color: rgb(52, 161, 52);
+        border-radius: 5px;
+        color:white;
+        border:none;}
+    /*contact*/
+    .contactPlan{
+        /*border:4px solid blue;*/
+        width: 100%;
+        height: 105vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    /*contact*/
+     .contactPlan .contactcontent{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+       position: relative;
+     }
+     .contactPlan .contactcontent img{
+      height:105%;
+      position: absolute;
+      top:-50px ;
+      left:10px;
+     }
+     .contact-form{
+     background-color: black;
+     height:90%;
+     width:40%;
+     color:white;
+     position: absolute;
+     right: 0;
+     }
+.contact-form form .top{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+     .contact-form form .impbox1{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap:30px;
+        margin: 40px;
+        font-weight: 900;
+        font-size:30px;
+     }
+     .contact-form form .impbox2{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        gap:30px;
+        margin: 40px;
+        font-weight: 900;
+        font-size:30px;
+     }
+     .contact-form form .impbox input,textarea,select{
+        background-color: transparent;
+     }
+     .impbox1 input :focus,textarea:focus{
+        border: none;
+        outline:none;
+        color:white;
+     }
+     .submit{
+        background-color: orangered;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        margin-left: 40px;
+     }
+
+.testimonials{
+/*border:2px solid red;*/
+height:110px;
+}
+.testimonials .tittle1{
+    display:flex;
+   margin-top:30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials .tittle1 h4{
+    color:orangered;
+}
+.testimonials .tittle1 h1{
+    font-weight: 600;
+}
+  .all{
+    box-shadow: 0px 0px 0.5px 0px;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding:20px;
+    position: relative;
+    width:50vw;
+    margin-left: 300px;
+    height:690px;
+    /*border:2px solid blue;*/
+ } 
+
+ 
+ .all .cardsi h2{
+   font-weight: bold;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 20px;
+ }
+ .all .cardsi h3{
+color:rgba(12, 246, 12, 0.461);
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 20px;
+ }
+ .all .cardsi i{
+    border:2px solid green;
+    height:150px;
+    width:150px;
+    font-size: 70px;
+    background-color: green;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+ }
+ .all img{
+    height:250px;
+    width:250px;
+    border-radius: 5px;
+
+ }
+ .all .cardsi h4{
+   /* border: 2px solid blue;*/
+    margin-top: 120px;
+    margin-left: 140px;
+    font-style: italic;
+    line-height: 30px;
+ }
+ .dot{
+    height:30px;
+    width:100px;
+   /* background-color: red;*/
+ }
+ .dot i{
+    font-size: 50px;
+    color:rgb(231, 114, 12);
+    margin-left:500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+ }
+ .client{
+    border:2px solid black;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin-top: 20px;
+ }
+
+ 
+ .footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color:white;
+    margin-bottom: 5px;
+ }
+ .footer span{
+    color:brown;
+ }
+@media screen and (max-width:500px){
+    nav{
+        background-color: rgb(248, 227, 227);
+       /* padding: 15px 15px 15px 50px;*/
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        color:white;
+    }
+    nav> .img{
+        height:80px;
+        width:80px;
+    }
+    .fa-solid fa-bars{
+        
+        padding: 20px;
+    }
+    .submenu{
+        position: absolute;
+        font-size: 25px;
+        right:0;
+        background-color: aqua;
+        z-index: 10;
+        width:550px;
+        line-height: 40px;
+        opacity: 0;
+        visibility: hidden;
+        transition:all 1s linear;
+    }
+    nav .hamburger:hover .submenu{
+        top:100%;
+        visibility: visible;
+        opacity: 1;
+    }
+    
+    /*navbar*/
+    .menuitems{
+       /* background-color: pink;*/
+        align-items: center;
+        width:50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color:white;
+        padding: 20px;
+    }
+    
+     .hamburger i{
+    padding-top: 33px;
+    font-size: 30px;
+    
+    }
+    .hamburger i{
+        margin-top: 50px;
+    }
+    .hamburger .submenu{
+    margin-top: 50px;
+    }
+    .menuitems h3{
+        font-weight: 90;
+        
+    }
+    .menuitems h3:hover{
+        color:orangered;
+        cursor: pointer;
+    }
+    .contact{
+        background-color: rgb(67,186,127);
+        padding: 8px 25px;
+        border-radius: 5px;
+        color:black;
+    }
+
+    nav> .menuitems{
+        display: none;
+    }
+    nav>.hamburger{
+        display: block;
+        font-size: 40px;
+       /* border:2px solid red;*/
+        text-align: center;
+        width:600px;
+        padding-left: 300px;
+        margin-top: -50px;
+    }
+    nav>img{
+        height: 100px;
+        width: 130px;
+        position:absolute;
+        top:10px;
+        left:50px;
+
+    }
+
+    nav>i{
+        margin-left:500px;
+        
+    }
+    .banner .content{
+       /* border:4px solid rgb(169,236,169);*/
+        width:100%;
+        height: 90%;
+        margin-top:-30px;
+        text-align: center;
+    }
+    .banner .content p{
+        display:none;
+    }
+    .banner .content .buttons{
+        margin:20px 0;
+    }
+    .services .card .fa-briefcase{
+        font-size: 60px;
+        color:rgb(67,186,127);
+        position: relative;
+        bottom:0;
+    }
+    .services{
+        margin:100px 0;
+        display: grid;
+        grid-template-columns: repeat(1,450px);
+        grid-template-rows: repeat(6,200);
+        justify-content: space-evenly;
+        align-items: center;
+        gap:30px;
+    }
+    .services .card{
+        border:none;
+    }
+    .services .card p{
+        padding-bottom: 10px;
+    }
+    .crypto{
+        /* border:2px solid red;*/
+         height: 50vh;
+         margin:50px 0;
+         display: flex;
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         background-image: url('./images/cta-bg.jpg');
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
+         background-position: center;
+         padding-bottom: 50px;
+     
+     }
+     .crypto h1{
+        /* background-color: aqua;*/
+         width:90%;
+         height: 60%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         line-height: 40px;
+         color: white;
+         text-align: center;
+     }
+     .crypto .buttons{
+     /*background-color: aqua;*/
+     width:70%;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     }
+     .contactPlan{
+        /*border:4px solid blue;*/
+        width: 100%;
+        height: 105vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    /*contact*/
+     .contactPlan .contactcontent{
+       /* background-color: black;*/
+        height: 100%;
+        width: 100%;
+       position: relative;
+     }
+     .contactPlan .contactcontent img{
+      
+      display: none;
+    }
+    .contact-form{
+      /*  background-color: aqua;*/
+        height:150%;
+        width:100%;
+        color:white;
+        padding: 20px;
+        margin-bottom: 20px;
+    
+        }
+        .contact-form form .top{
+           /* background-color: black;*/
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width:100%;
+            margin-left: -15%;
+        }
+        .contact-form form .impbox{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap:30px;
+            margin: 40px;
+            justify-content: flex-start;
+        
+         }
+         
+
+.testimonials{
+    border:2px solid red;
+    height:110px;
+    }
+    .testimonials .tittle1{
+        display:flex;
+       margin-top:30px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .testimonials .tittle1 h4{
+        color:orangered;
+        background-color: aquamarine;
+
+    }
+    .testimonials .tittle1 h1{
+        font-weight: 600;
+        color:aqua;
+    }
+    .all .cardsi{
+       /* border:2px solid;*/
+        width:70%;
+    }
+    .all .cardsi .fa-quote-left{
+       /* border:2px solid green;*/
+        height:80px;
+        width:80px;
+        font-size: 40px;
+        
+        color:white;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+     }
+     .all .cardsi  h4{
+        /*border:2px solid;*/
+        height:60vh;
+        padding-top: 20px;
+        width:120%;
+     }
+     .all .cardsi h2{
+        margin-top: -100px;
+     width:120%;
+     }
+     .all .cardsi h3{
+        width:120%;
+     }
+         
+         .hello .title h4{
+            font-size: 30px;
+            
+
+         }
+         .hello .title h2{
+            /*border:2px solid blue;*/
+            margin-top: 80px;
+            font-size: 40px;
+            text-align: center;
+         }
+         .btnn .buttons1{
+            display: none;
+         }
+            .dot{
+                height:30px;
+                width:100px;
+               /* background-color: red;*/
+             }
+             .dot i{
+                font-size: 50px;
+                color:rgb(231, 114, 12);
+                margin-left:140px;
+                margin-top: 0px;
+                margin-bottom: 20px;
+            
+             }
+         .all{
+         box-shadow: 0px 0px 0.5px 0px;
+            display:flex;
+            justify-content: space-evenly;
+            
+            margin-top: 100px;
+            padding:20px;
+            position: relative;
+            width:90vw;
+            margin-left: 0px;
+            height:800px;
+            position: relative;
+            margin-top: 100px;
+           /* border:2px solid blue;*/
+         } 
+        
+         
+         .all .cardsi h2{
+           font-weight: bold;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           margin-left: 20px;
+    
+         }
+         
+  .all{
+    
+    height:590px;
+    /*border:2px solid blue;*/
+ } 
+         .all .cardsi h3{
+        color:rgba(12, 246, 12, 0.461);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 20px;
+         }
+         .all .cardsi i{
+            border:2px solid green;
+            height:150px;
+            width:150px;
+            font-size: 70px;
+            background-color: green;
+            color:white;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 105px;
+         }
+         .all img{
+            height:150px;
+            width:150px;
+            border-radius: 5px;
+            margin-top: 100px;
+         }
+         .fa-ellipsis{
+           /* border:2px solid red;*/
+            padding-left: 20px;
+         }
+         .aboutus{
+           /* border:2px solid red;*/
+            height:100%;
+            position: relative;
+            width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        }
+        .aboutus .title{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+    
+            
+        }
+        .aboutus .title h4{
+            color:orange;
+        }
+        .aboutus .contract{
+           /* background-color: beige;*/
+            height:85%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+        .aboutus .contract .left{
+           /* background-color: pink;*/
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+        .aboutus .contract .left .buttons{
+            padding: 15px 40px;
+           /* background-color: aquamarine;*/
+            width:75%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin:15px 0;
+            height: auto;
+            position: absolute;
+            top:5%;
+            left: 0;
+        }
+        .aboutus .contract .left .buttons button{
+            padding: 15px 30px;
+            font-size: 17px;
+            box-shadow: 0 0 8px 0 grey;
+        }
+        .aboutus .contract .right{
+            /*background-color: lime;*/
+            height: 100%;
+            width:100%;
+        }
+        .aboutus .contract .right h2{
+            padding:40px;
+            font-family:sans-serif;
+        }
+        .aboutus .contract .right p{
+            padding: 20px 40px;
+            font-size: 20px;
+        }
+
+        .aboutus .contract .right button{
+            padding:30px;
+            height:20px;
+            width:150px;
+            border-radius: 5px;
+            background-color: lime;
+            border:none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: large;
+            color:white;
+             margin-left: 35%;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            font-size: 20px;
+            margin-top: 100px;
+        }
+        tr{
+            border-bottom: 1px solid #ddd;
+        }
+        td{
+            text-align: center;
+            padding:15px;
+        }
+        th{
+            padding: 30px;
+        }
+
+         .all .cardsi h4{
+           /* border: 2px solid blue;*/
+            margin-top: 120px;
+            margin-left: 40px;
+            font-style: italic;
+            line-height: 30px;
+            flex-wrap: nowrap;
+            text-align: center;
+         }
+
+         .client{
+           /* border:2px solid black;*/
+            height: 500px;
+            display: grid;
+            grid-template-columns: repeat(2,150px);
+            grid-template-rows: repeat(3,150px);
+            
+            
+         }
+        .client img{
+            height:80px;
+            width: 120px;
+        }
+         
+         .footer{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color:white;
+            margin-bottom: 5px;
+         }
+         .footer span{
+            color:brown;
+         }
+        
+         
+        }
+        @media  (min-width:501px) and (max-width:650px){
+            nav{
+                background-color: rgb(248, 227, 227);
+               /* padding: 15px 15px 15px 50px;*/
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                color:white;
+                gap:10px;
+            }
+            .menuitems h3{
+                font-size: 15px;
+                font-weight: 500;
+                color:rgb(15, 189, 137);
+            }
+            nav> .img{
+                height:100px;
+                width:100px;
+            }
+            .fa-solid fa-bars{
+                
+            display:none;
+            }
+            .submenu{
+                position: absolute;
+                font-size: 25px;
+                right:0;
+                background-color: aqua;
+                z-index: 10;
+                width:550px;
+                line-height: 40px;
+                opacity: 0;
+                visibility: hidden;
+                transition:all 1s linear;
+            }
+            nav .hamburger{
+                display: none;
+            }
+            nav .hamburger:hover .submenu{
+                top:100%;
+                visibility: visible;
+                opacity:1
+            }
+            .banner{
+            background-color: blueviolet;
+            height:80%;
+        
+            }
+            .banner p{
+                display: none;
+            }
+            .content h3{
+                
+                width:40%;
+                display:flex;
+                flex-wrap: nowrap;
+            }
+            .content span{
+                padding-left:-30%;
+            }
+            .buttons{
+                
+                margin:30px 0;
+                margin-left:60%;
+                gap:20px;
+            }
+            .services{
+                
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap:40px;
+            }
+        
+     .fa-briefcase{
+        
+        padding:20px;
+        font-size: 30px;
+        }
+        .crypto{
+            /* border:2px solid red;*/
+             height: 50vh;
+             margin:50px 0;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             align-items: center;
+             background-image: url('./images/cta-bg.jpg');
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+             background-position: center;
+             padding-bottom: 50px;
+         
+         }
+         .crypto h1{
+            /* background-color: aqua;*/
+             width:90%;
+             height: 60%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             line-height: 40px;
+             color: white;
+             text-align: center;
+         }
+         .crypto .buttons{
+         /*background-color: aqua;*/
+         width:70%;
+         display: flex;
+         
+         align-items: center;
+         }
+         .crypto .buttons .btn1{
+        
+            margin-left: -450px;
+            margin-right: -80px;
+         }
+         .btnn{
+            
+            padding: 40px;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: 100px;
+         }
+         
+         .btnn .buttons1{
+             border:2px solid red;
+             height: 90%;
+             width: 80%;
+            position: relative;
+         }
+         
+         .btn .buttons1 .a{
+             position: absolute;
+             top:50px;
+             padding: 40%;
+             margin: 20px;
+             width:30%;
+             
+     
+             }
+     .btn .buttons1 .b{
+         position: absolute;
+         padding-top: 40%;
+             margin: 20px;
+             width:40%;
+     }
+     .btn .buttons1 .c{
+         position: absolute;
+         padding: 40%;
+             margin: 20px;
+             width:40%;
+     }
+     .aboutus{
+        /* border:2px solid red;*/
+         height:100%;
+         position: relative;
+         width:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     }
+     .aboutus .title{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+ 
+         
+     }
+     .aboutus .title h4{
+         color:orange;
+     }
+     .aboutus .contract{
+        /* background-color: beige;*/
+         height:85%;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: column;
+     }
+     .aboutus .contract .left{
+        /* background-color: pink;*/
+         height: 100%;
+         width: 100%;
+         position: relative;
+     }
+     .aboutus .contract .left .buttons{
+         padding: 15px 40px;
+        /* background-color: aquamarine;*/
+         width:75%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         margin:15px 0;
+         height: auto;
+         position: absolute;
+         top:5%;
+         left: 0;
+     }
+     .aboutus .contract .left .buttons button{
+         padding: 15px 30px;
+         font-size: 17px;
+         box-shadow: 0 0 8px 0 grey;
+     }
+     .aboutus .contract .right{
+         /*background-color: lime;*/
+         height: 100%;
+         width:100%;
+     }
+     .aboutus .contract .right h2{
+         padding:40px;
+         font-family:sans-serif;
+     }
+     .aboutus .contract .right p{
+         padding: 20px 40px;
+         font-size: 20px;
+     }
+
+     .aboutus .contract .right button{
+         padding:30px;
+         height:20px;
+         width:150px;
+         border-radius: 5px;
+         background-color: lime;
+         border:none;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: large;
+         color:white;
+          margin-left: 35%;
+     }
+     .contactPlan img{
+       display:none;
+     }
+     .contactPlan{
+        /*border:4px solid blue;*/
+        width: 100%;
+        height: 105vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    /*contact*/
+     .contactPlan .contactcontent{
+       /* background-color: black;*/
+        height: 100%;
+        width: 100%;
+       position: relative;
+     }
+     .contactPlan .contactcontent img{
+      
+      display: none;
+    }
+    .contact-form{
+      /*  background-color: aqua;*/
+        height:150%;
+        width:100%;
+
+        padding: 20px;
+        margin-bottom: 20px;
+    
+        }
+        .contact-form form .top{
+           /* background-color: black;*/
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width:100%;
+            margin-left: -15%;
+        }
+        .contact-form form .impbox1{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap:30px;
+            margin: 40px;
+            justify-content: flex-start;
+        
+         }
+         .contact-form form .impbox2{
+            
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            gap:30px;
+            margin: 40px 60px;
+            justify-content: flex-start;
+        
+         }
+         .testimonials{
+            border:2px solid red;
+            height:110px;
+            }
+            .testimonials .tittle1{
+                display:flex;
+               margin-top:30px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .testimonials .tittle1 h4{
+                color:orangered;
+                background-color: aquamarine;
+        
+            }
+            .testimonials .tittle1 h1{
+                font-weight: 600;
+                color:aqua;
+            }
+            .all .cardsi{
+               /* border:2px solid;*/
+                width:70%;
+            }
+            .all .cardsi .fa-quote-left{
+               /* border:2px solid green;*/
+                height:80px;
+                width:80px;
+                font-size: 40px;
+                
+                color:white;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 35px;
+             }
+             .all .cardsi  h4{
+                /*border:2px solid;*/
+                height:60vh;
+                padding-top: 20px;
+                width:120%;
+             }
+             .all .cardsi h2{
+                margin-top: -100px;
+             width:120%;
+             }
+             .all .cardsi h3{
+                width:120%;
+             }
+                 
+                 .hello .title h4{
+                    font-size: 30px;
+                    
+        
+                 }
+                 .hello .title h2{
+                    /*border:2px solid blue;*/
+                    margin-top: 80px;
+                    font-size: 40px;
+                    text-align: center;
+                 }
+                 .banner .content .buttons .btn{
+                    padding: 15px 35px;
+                    border-radius: 10px;
+                    color:white;
+                    font-weight: bold;
+                    cursor: pointer;
+                    background-color: lime;
+                    border: none;
+                }
+                .banner .content .buttons .btn1{
+                    padding: 15px 35px;
+                    border-radius: 10px;
+                    color:white;
+                    font-weight: bold;
+                    cursor: pointer;
+                    background-color: red;
+                    border:none;
+                }
+                    .dot{
+                        height:30px;
+                        width:100px;
+                       /* background-color: red;*/
+                     }
+                     .dot i{
+                        font-size: 50px;
+                        color:rgb(231, 114, 12);
+                        margin-left:140px;
+                        margin-top: 0px;
+                        margin-bottom: 20px;
+                    
+                     }
+                 .all{
+                 box-shadow: 0px 0px 0.5px 0px;
+                    display:flex;
+                    justify-content: space-evenly;
+                    
+                    margin-top: 100px;
+                    padding:20px;
+                    position: relative;
+                    width:90vw;
+                    margin-left: 0px;
+                    height:800px;
+                    position: relative;
+                    margin-top: 100px;
+                   /* border:2px solid blue;*/
+                 } 
+                
+                 
+                 .all .cardsi h2{
+                   font-weight: bold;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   margin-left: 20px;
+            
+                 }
+                 
+          .all{
+            
+            height:590px;
+            /*border:2px solid blue;*/
+         } 
+                 .all .cardsi h3{
+                color:rgba(12, 246, 12, 0.461);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 20px;
+                 }
+                 .all .cardsi i{
+                    border:2px solid green;
+                    height:150px;
+                    width:150px;
+                    font-size: 70px;
+                    background-color: green;
+                    color:white;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 105px;
+                 }
+                 .all img{
+                    height:150px;
+                    width:150px;
+                    border-radius: 5px;
+                    margin-top: 100px;
+                 }
+                 .fa-ellipsis{
+                   /* border:2px solid red;*/
+                    padding-left: 20px;
+                 }
+                 .aboutus{
+                    /* border:2px solid red;*/
+                     height:100%;
+                     position: relative;
+                     width:100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 }
+                 .aboutus .title{
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+             
+                     
+                 }
+                 .aboutus .title h4{
+                     color:orange;
+                 }
+                 .aboutus .contract{
+                    /* background-color: beige;*/
+                     height:85%;
+                     width: 100%;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                     flex-direction: column;
+                 }
+                 .aboutus .contract .left{
+                    /* background-color: pink;*/
+                     height: 100%;
+                     width: 100%;
+                     position: relative;
+                 }
+                 .aboutus .contract .left .buttons{
+                     padding: 15px 40px;
+                    /* background-color: aquamarine;*/
+                     width:75%;
+                     display: flex;
+                     justify-content: space-around;
+                     align-items: center;
+                     margin:15px 0;
+                     height: auto;
+                     position: absolute;
+                     top:5%;
+                     left: 0;
+                 }
+                 .aboutus .contract .left .buttons button{
+                     padding: 15px 30px;
+                     font-size: 17px;
+                     box-shadow: 0 0 8px 0 grey;
+                 }
+                 .aboutus .contract .right{
+                     /*background-color: lime;*/
+                     height: 100%;
+                     width:100%;
+                 }
+                 .aboutus .contract .right h2{
+                     padding:40px;
+                     font-family:sans-serif;
+                 }
+                 .aboutus .contract .right p{
+                     padding: 20px 40px;
+                     font-size: 20px;
+                 }
+         
+                 .aboutus .contract .right button{
+                     padding:30px;
+                     height:20px;
+                     width:150px;
+                     border-radius: 5px;
+                     background-color: lime;
+                     border:none;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     font-size: large;
+                     color:white;
+                      margin-left: 35%;
+                 }
+                 table{
+                     border-collapse: collapse;
+                     width: 100%;
+                     font-size: 20px;
+                     margin-top: 100px;
+                 }
+                 tr{
+                     border-bottom: 1px solid #ddd;
+                 }
+                 td{
+                     text-align: center;
+                     padding:15px;
+                 }
+                 th{
+                     padding: 30px;
+                 }
+         
+                  .all .cardsi h4{
+                    /* border: 2px solid blue;*/
+                     margin-top: 120px;
+                     margin-left: 40px;
+                     font-style: italic;
+                     line-height: 30px;
+                     flex-wrap: nowrap;
+                     text-align: center;
+                  }
+         
+                  .client{
+                    /* border:2px solid black;*/
+                     height: 500px;
+                     display: grid;
+                     grid-template-columns: repeat(3,150px);
+                     grid-template-rows: repeat(2,150px);
+                     
+                     
+                  }
+                  .fa-ellipsis{
+                    
+                    width:100vw;
+                    
+                    padding-left: 70px;
+                  }
+                 .client img{
+                     height:80px;
+                     width: 120px;
+                 }
+                  
+                  .footer{
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+                     background-color: black;
+                     color:white;
+                     margin-bottom: 5px;
+                  }
+                  .footer span{
+                     color:brown;
+                  }
+
+        }
+        @media (min-width:651px) and (max-width:800px){
+            nav{
+                background-color: rgb(108, 103, 103);
+               /* padding: 15px 15px 15px 50px;*/
+                display:flex;
+                justify-content: space-between;
+                align-items: center;
+                color:white;
+                gap:10px;
+            }
+            .menuitems h3{
+                font-size: 15px;
+                font-weight: 500;
+                color:rgb(15, 189, 137);
+            }
+            nav> .img{
+                height:100px;
+                width:100px;
+            }
+            .fa-solid fa-bars{
+                
+            display:none;
+            }
+            .submenu{
+                position: absolute;
+                font-size: 25px;
+                right:0;
+                background-color: aqua;
+                z-index: 10;
+                width:550px;
+                line-height: 40px;
+                opacity: 0;
+                visibility: hidden;
+                transition:all 1s linear;
+            }
+            nav .hamburger{
+                display: none;
+            }
+            nav .hamburger:hover .submenu{
+                top:100%;
+                visibility: visible;
+                opacity:1
+            }
+            .banner{
+            background-color: blueviolet;
+            height:80%;
+        
+            }
+            .banner p{
+                display: none;
+            }
+            .content h3{
+                
+                width:40%;
+                display:flex;
+                flex-wrap: nowrap;
+            }
+            .content span{
+                padding-left:-30%;
+            }
+            .buttons{
+                padding-left: 20px;
+                margin:30px 0;
+                margin-left:60%;
+                gap:20px;
+
+            }
+            .btn{
+              width:100px;
+            }
+            .services{
+                
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                gap:40px;
+            }
+        
+     .fa-briefcase{
+        
+        padding:20px;
+        font-size: 30px;
+        }
+        .crypto{
+            /* border:2px solid red;*/
+             height: 50vh;
+             margin:50px 0;
+             display: flex;
+             flex-direction: column;
+             justify-content: space-between;
+             align-items: center;
+             background-image: url('./images/cta-bg.jpg');
+             background-repeat: no-repeat;
+             background-size: 100% 100%;
+             background-position: center;
+             padding-bottom: 50px;
+         
+         }
+         .crypto h1{
+            /* background-color: aqua;*/
+             width:90%;
+             height: 60%;
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             line-height: 40px;
+             color: white;
+             text-align: center;
+         }
+         .crypto .buttons{
+         /*background-color: aqua;*/
+         width:70%;
+         display: flex;
+         
+         align-items: center;
+         }
+         .crypto .buttons .btn1{
+        
+            margin-left: -450px;
+            margin-right: -80px;
+         }
+         .btnn{
+            
+            padding: 40px;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            margin-left: 100px;
+         }
+         
+         .btnn .buttons1{
+             border:2px solid red;
+             height: 90%;
+             width: 90%;
+            position: relative;
+         }
+         
+         .btn .buttons1 .a{
+             position: absolute;
+             top:50px;
+             padding: 40%;
+             margin: 20px;
+             width:30%;
+             
+     
+             }
+             .impbox1{
+                padding-left: -30px;
+             }
+             .impbox2{
+                padding-left: 20px;
+             }
+     .btn .buttons1 .b{
+         position: absolute;
+         padding-top: 40%;
+             margin: 20px;
+             width:40%;
+     }
+     .btn .buttons1 .c{
+         position: absolute;
+         padding: 40%;
+             margin: 20px;
+             width:40%;
+     }
+     .aboutus{
+        /* border:2px solid red;*/
+         height:100%;
+         position: relative;
+         width:100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     }
+     .aboutus .title{
+         display:flex;
+         justify-content: center;
+         align-items: center;
+ 
+         
+     }
+     .aboutus .title h4{
+         color:orange;
+     }
+     .aboutus .contract{
+        /* background-color: beige;*/
+         height:85%;
+         width: 100%;
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+         flex-direction: column;
+     }
+     .aboutus .contract .left{
+        /* background-color: pink;*/
+         height: 100%;
+         width: 100%;
+         position: relative;
+     }
+     .aboutus .contract .left .buttons{
+         padding: 15px 40px;
+        /* background-color: aquamarine;*/
+         width:75%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+         margin:15px 0;
+         height: auto;
+         position: absolute;
+         top:5%;
+         left: 0;
+     }
+     .aboutus .contract .left .buttons button{
+         padding: 15px 30px;
+         font-size: 17px;
+         box-shadow: 0 0 8px 0 grey;
+     }
+     .aboutus .contract .right{
+         /*background-color: lime;*/
+         height: 100%;
+         width:100%;
+     }
+     .aboutus .contract .right h2{
+         padding:40px;
+         font-family:sans-serif;
+     }
+     .aboutus .contract .right p{
+         padding: 20px 40px;
+         font-size: 20px;
+     }
+
+     .aboutus .contract .right button{
+         padding:30px;
+         height:20px;
+         width:150px;
+         border-radius: 5px;
+         background-color: lime;
+         border:none;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: large;
+         color:white;
+          margin-left: 35%;
+     }
+     .contactPlan img{
+       display:none;
+     }
+     .contactPlan{
+        /*border:4px solid blue;*/
+        width: 100%;
+        height: 105vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    /*contact*/
+     .contactPlan .contactcontent{
+       /* background-color: black;*/
+        height: 100%;
+        width: 100%;
+       position: relative;
+     }
+     .contactPlan .contactcontent img{
+      
+      display: none;
+    }
+    .contact-form{
+      /*  background-color: aqua;*/
+        height:150%;
+        width:100%;
+        color:white;
+        padding: 20px;
+        margin-bottom: 20px;
+    
+        }
+        .contact-form form .top{
+           /* background-color: black;*/
+            display:flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+            width:100%;
+            margin-left: -15%;
+        }
+        .contact-form form .impbox1{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap:30px;
+            margin: 40px;
+            justify-content: flex-start;
+            background-color: black;
+         }
+         
+        .contact-form form .impbox2{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            gap:30px;
+            margin: 40px;
+            justify-content: flex-start;
+            background-color: black;
+        
+         }
+         .testimonials{
+            border:2px solid red;
+            height:110px;
+            }
+            .testimonials .tittle1{
+                display:flex;
+               margin-top:30px;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+            }
+            .testimonials .tittle1 h4{
+                color:orangered;
+                background-color: aquamarine;
+        
+            }
+            .testimonials .tittle1 h1{
+                font-weight: 600;
+                color:aqua;
+            }
+            .all .cardsi{
+               /* border:2px solid;*/
+                width:70%;
+            }
+            .all .cardsi .fa-quote-left{
+               /* border:2px solid green;*/
+                height:80px;
+                width:80px;
+                font-size: 40px;
+                
+                color:white;
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 45px;
+             }
+             .all .cardsi  h4{
+                /*border:2px solid;*/
+                height:60vh;
+                padding-top: 20px;
+                width:120%;
+             }
+             .all .cardsi h2{
+                margin-top: -100px;
+             width:120%;
+             }
+             .all .cardsi h3{
+                width:120%;
+             }
+                 
+                 .hello .title h4{
+                    font-size: 30px;
+                    
+        
+                 }
+                 .hello .title h2{
+                    /*border:2px solid blue;*/
+                    margin-top: 80px;
+                    font-size: 40px;
+                    text-align: center;
+                 }
+                 .btnn .buttons1{
+                    display: none;
+                 }
+                    .dot{
+                        height:30px;
+                        width:100px;
+                       /* background-color: red;*/
+                     }
+                     .dot i{
+                        font-size: 50px;
+                        color:rgb(231, 114, 12);
+                        margin-left:140px;
+                        margin-top: 0px;
+                        margin-bottom: 20px;
+                    
+                     }
+                 .all{
+                 box-shadow: 0px 0px 0.5px 0px;
+                    display:flex;
+                    justify-content: space-evenly;
+                    
+                    margin-top: 100px;
+                    padding:20px;
+                    position: relative;
+                    width:90vw;
+                    margin-left: 0px;
+                    height:800px;
+                    position: relative;
+                    margin-top: 100px;
+                   /* border:2px solid blue;*/
+                 } 
+                
+                 
+                 .all .cardsi h2{
+                   font-weight: bold;
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
+                   margin-left: 20px;
+            
+                 }
+                 
+          .all{
+            
+            height:590px;
+            /*border:2px solid blue;*/
+         } 
+                 .all .cardsi h3{
+                color:rgba(12, 246, 12, 0.461);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 20px;
+                 }
+                 .all .cardsi i{
+                    border:2px solid green;
+                    height:150px;
+                    width:150px;
+                    font-size: 70px;
+                    background-color: green;
+                    color:white;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 105px;
+                 }
+                 .all img{
+                    height:150px;
+                    width:150px;
+                    border-radius: 5px;
+                    margin-top: 100px;
+                 }
+                 .fa-ellipsis{
+                   /* border:2px solid red;*/
+                    padding-left: 20px;
+                 }
+                 .aboutus{
+                    /* border:2px solid red;*/
+                     height:100%;
+                     position: relative;
+                     width:100%;
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                 }
+                 .aboutus .title{
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+             
+                     
+                 }
+                 .aboutus .title h4{
+                     color:orange;
+                 }
+                 .aboutus .contract{
+                    /* background-color: beige;*/
+                     height:85%;
+                     width: 100%;
+                     display: flex;
+                     justify-content: space-between;
+                     align-items: center;
+                     flex-direction: column;
+                 }
+                 .aboutus .contract .left{
+                    /* background-color: pink;*/
+                     height: 100%;
+                     width: 100%;
+                     position: relative;
+                 }
+                 .aboutus .contract .left .buttons{
+                     padding: 15px 40px;
+                    /* background-color: aquamarine;*/
+                     width:75%;
+                     display: flex;
+                     justify-content: space-around;
+                     align-items: center;
+                     margin:15px 0;
+                     height: auto;
+                     position: absolute;
+                     top:5%;
+                     left: 0;
+                 }
+                 .aboutus .contract .left .buttons button{
+                     padding: 15px 30px;
+                     font-size: 17px;
+                     box-shadow: 0 0 8px 0 grey;
+                 }
+                 .aboutus .contract .right{
+                     /*background-color: lime;*/
+                     height: 100%;
+                     width:100%;
+                 }
+                 .aboutus .contract .right h2{
+                     padding:40px;
+                     font-family:sans-serif;
+                 }
+                 .aboutus .contract .right p{
+                     padding: 20px 40px;
+                     font-size: 20px;
+                 }
+         
+                 .aboutus .contract .right button{
+                     padding:30px;
+                     height:20px;
+                     width:150px;
+                     border-radius: 5px;
+                     background-color: lime;
+                     border:none;
+                     display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     font-size: large;
+                     color:white;
+                      margin-left: 35%;
+                 }
+                 table{
+                     border-collapse: collapse;
+                     width: 100%;
+                     font-size: 20px;
+                     margin-top: 100px;
+                 }
+                 tr{
+                     border-bottom: 1px solid #ddd;
+                 }
+                 td{
+                     text-align: center;
+                     padding:15px;
+                 }
+                 th{
+                     padding: 30px;
+                 }
+                 .all cardsi{
+                    position: relative;
+                 }
+                  .all .cardsi h4{
+                    /* border: 2px solid blue;*/
+                     margin-top: 120px;
+                     margin-left: 40px;
+                     font-style: italic;
+                     line-height: 30px;
+                     flex-wrap: nowrap;
+                     text-align: center;
+                  }
+                  .all .fa-quote-left{
+                    position:absolute;
+                    margin-top: 80px;
+                    padding-top: 50px;
+                    top:10%;
+                  }
+         
+         .dot .fa-ellipsis{
+            
+            width:90%;
+            margin:0 300px;
+            padding-left: 20px;
+         }
+                  .client{
+                    /* border:2px solid black;*/
+                     height: 500px;
+                     display: grid;
+                     grid-template-columns: repeat(3,150px);
+                     grid-template-rows: repeat(2,150px);
+                     
+                     
+                  }
+                 .client img{
+                     height:80px;
+                     width: 120px;
+                 }
+                  
+                  .footer{
+                     display:flex;
+                     justify-content: center;
+                     align-items: center;
+                     background-color: black;
+                     color:white;
+                     margin-bottom: 5px;
+                  }
+                  .footer span{
+                     color:brown;
+                  }
+
+        }
+        
